@@ -466,20 +466,19 @@ footer {
 
 .footer-form-container {
   margin-left: auto;
+  justify-content: center;
 }
 
 .footer-form {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
-  margin-top: 16px;
 }
 
 .footer-button {
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  width: 169px;
   height: 40px;
   background-color: #4d5ae5;
   gap: 16px;
@@ -506,6 +505,7 @@ footer {
 }
 
 .footer-input {
+  margin-right: 24px;
   color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 4px;
@@ -587,6 +587,10 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 72px 24px 24px 24px;
+  box-shadow:
+    0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
 .modal-close-button {
@@ -704,7 +708,7 @@ p {
 .modal-button {
   border-radius: 4px;
   padding: 8px 24px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   background-color: #4d5ae5;
   cursor: pointer;
@@ -768,5 +772,4 @@ p {
 .privacy-link {
   color: #4d5ae5;
   text-decoration: underline;
-  line-height: 1.33;
 }
